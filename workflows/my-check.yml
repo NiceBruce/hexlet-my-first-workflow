@@ -5,8 +5,10 @@ on: push:
    	 - main
    	 - release/*
 jobs:
-  build:
+  saying_hello:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/say_hello
+      - name: say
       - run: make say 
 
