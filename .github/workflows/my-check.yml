@@ -5,6 +5,5 @@ jobs:
   Saying-hello:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-      make say 
+      - run: make say 
 
